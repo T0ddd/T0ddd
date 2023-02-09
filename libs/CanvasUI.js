@@ -39,11 +39,11 @@ class CanvasUI{
             opacity: 0.7,
             body:{
                 fontFamily:'Arial', 
-                fontSize:30, 
+                fontSize:10, 
                 padding:20, 
-                backgroundColor: '#000', 
+                backgroundColor: '#876058', 
                 fontColor:'#fff', 
-                borderRadius: 6
+                borderRadius: 10
             }
         }
 		this.config = (config===undefined) ? defaultconfig : config;
