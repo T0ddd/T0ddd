@@ -9,8 +9,8 @@ class LoadingBar{
 		this.domElement.style.background = '#876';
 		this.domElement.style.opacity = '0.5';
 		this.domElement.style.display = 'flex';
-		this.domElement.style.alignItems = 'bottom';
-		this.domElement.style.justifyContent = 'bottom';
+		this.domElement.style.alignItems = 'top';
+		this.domElement.style.justifyContent = 'top';
 		this.domElement.style.zIndex = '1111';
 		const barBase = document.createElement("div");
 		barBase.style.background = '#aaa';
