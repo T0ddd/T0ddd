@@ -20,11 +20,11 @@ class LoadingBar{
 		barBase.style.height = '10px';
 		this.domElement.appendChild(barBase);
 		const bar = document.createElement("div");
-		bar.style.background = '#E9B92D';
+		bar.style.background = '#78715B';
 		bar.style.width = '50%';
 		bar.style.borderRadius = '10px';
 		bar.style.height = '100%';
-		bar.style.width = '0';
+		bar.style.width = '0.1';
 		barBase.appendChild(bar);
 		this.progressBar = bar;
 		
